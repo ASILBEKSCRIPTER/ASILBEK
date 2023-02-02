@@ -1,0 +1,4 @@
+-- Game: https://www.roblox.com/games/9377039667/Roblox-Innovation-Awards-Voting-Hub
+-- Script Made By Asilbek
+-- Subscribe to my Youtube Channel: https://www.youtube.com/@35ASILBEK35
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ASILBEKSCRIPTER/ASILBEK/main/Main%20Code", true))()
