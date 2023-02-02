@@ -3,6 +3,8 @@
 -- Subscribe to my Youtube Channel: https://www.youtube.com/@35ASILBEK35
 -- If you steal you skid
 
+print("Script Real Creator Is 35ASILBEK35 also subscribe to my youtube")
+
   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.CubePieces.Block1.CFrame
 	wait(0.50)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.CubePieces.Block2.CFrame
