@@ -1,0 +1,18 @@
+-- Game: https://www.roblox.com/games/9377039667/Roblox-Innovation-Awards-Voting-Hub
+-- Script Made By Asilbek
+-- Subscribe to my Youtube Channel: https://www.youtube.com/@35ASILBEK35
+-- If you steal you skid
+
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.CubePieces.Block1.CFrame
+	wait(0.50)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.CubePieces.Block2.CFrame
+	wait(0.50)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.CubePieces.Block3.CFrame
+	wait(0.50)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.CubePieces.Block4.CFrame
+	wait(1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.CenterPiece["CenterPiece_Stand"]["Meshes/Stand_Full_Cylinder"].CFrame * CFrame.new(0, 7, 0)
+	wait(0.05)
+	game.Players.LocalPlayer.Character.Humanoid:MoveTo(Vector3.new(0, 0, 10))
+	wait(2)
+	game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
